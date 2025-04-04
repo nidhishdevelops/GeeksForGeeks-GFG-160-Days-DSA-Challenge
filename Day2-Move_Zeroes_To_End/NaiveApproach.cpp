@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void MoveZeros(vector<int> &arr){
+void MoveZeroes(vector<int> &arr){
     int n = arr.size();
     vector<int> temp(n);
 
@@ -27,7 +27,7 @@ void MoveZeros(vector<int> &arr){
 
 int main(){
     vector<int> arr = {1,3,4,0,2,3,4,0,3,0,9};
-    MoveZeros(arr);
+    MoveZeroes(arr);
 
     for(int num: arr){
         cout<<num<<" ";
